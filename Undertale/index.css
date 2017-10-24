@@ -150,8 +150,8 @@ td {
 
 video {
     position: absolute;
-    height: 300px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
 }
 
 #audio {
