@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://get.mavo.io/mavo.js"></script>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+</head>
+
+<body>
+    <div id="innhold">
+        <div mv-app="todo" mv-storage="local" mv-mode: "edit">
+            <h1>Mine gjøremål</h1>
+            <p property="dag" mv multiple>Idag</p>
+            <ul>
+                <li property="gjøremål" mv-multiple>
+                    <label>
+                        <input property="done" type="checkbox" />
+                        <span property="taskTitle">Do stuff</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--<input type="number" property="desimal" value="13" datatype="number" mv-mode="edit">
+<span>Dette blir [desimal.toString(16)] i hex.</span>-->

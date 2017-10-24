@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Undertale – Om spillet</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="Tittel">
+        <a href="index.html" id="Tittel"></a>
+    </div>
+    <div id="Meny">
+        <ul>
+            <li>
+                <a class="showing" href="omspillet.html">Om spillet</a>
+            </li>
+            <li>
+                <a href="karakterer.html">Karakterer</a>
+            </li>
+            <li>
+                <a href="musikk.html">Musikk</a>
+            </li>
+        </ul>
+    </div>
+    <div id="Innhold">
+        <h2>
+            Registrer deg
+        </h2>
+        <form id="skjema">
+
+            <br>
+            <label> Fornavn
+                <input id="fornavn"> </label>
+
+            <br>
+            <label> Etternavn
+                <input type="text"> </label>
+
+            <br>
+            <label> Adresse
+                <input type="text"> </label>
+
+            <br>
+            <label> Fødselsdato
+                <input type="date"> </label>
+
+            <br>
+            <label> Alder
+                <input type="number"> </label>
+
+            <br>
+            <button id="lagre" type="button">Lagre </button>
+
+        </form>
+    </div>
+    <div id="Bunn"></div>
+
+    <script>
+        let btn = document.getElementById("lagre");
+        btn.addEventListener("click", lagreData);
+
+        function lagreData() {
+            let fornavn = document.getElementById("fornavn").value;
+            alert("Hei " + fornavn);
+        }
+    </script>
+
+</body>
+
+</html>
