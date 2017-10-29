@@ -1,24 +1,23 @@
 body {
-background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
-.Tittel {
-    background-image: url("Circuitboard.jpg");
+#Tittel {
     position: absolute;
     top: 0%;
     width: 100%;
     bottom: 80%;
     text-align: center;
+    color: white;
     margin-left: -0.59%;
-    background-color: black;
+    text-shadow: 2px 2px #ffffff;
+    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 h1 {
-    color: white;
-    text-shadow: 2px 2px #ffffff;
     margin-top: 30px;
     font-family: "Courier New";
     font-size: 80px;
@@ -51,7 +50,6 @@ a:hover {
     width: 100%;
     margin-top: 20px; 
     background-color: whitesmoke;
-    background-image: linear-gradient(to top, white, whitesmoke);
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom-style: ridge;
@@ -76,7 +74,7 @@ a:hover {
      
     #Meny li a {
     text-decoration: none;
-    color: mediumblue;
+    color:black;
     display: block;
     margin-left: 0px;
     text-align: center;
@@ -84,24 +82,24 @@ a:hover {
     height: 2.5em;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px dimgray;
+    box-shadow: 3px 3px 3px darkslategray;
     width: 350px;
     }
      
     #Meny li a:hover {
-    background-color: silver;
-    box-shadow: 2px 2px 2px navy;
-    color: mediumblue;
+    background-color: darkslategray;
+    box-shadow: 3px 3px 3px limegreen;
+    color: white;
     }
      
     #Meny li a:active {
-    transform: translate(1px,1px);
+    transform: translate(2px,2px);
     box-shadow: none;
     }
 
     #Meny li a.showing {
-        background-color: silver;
-        color: mediumblue;
+        background-color: darkslategray;
+        color: white;
     }
 
 h2 {
@@ -141,7 +139,7 @@ table {
     }
 
 th {
-    background-color: silver;
+    background-color: darkgray;
     border-style: solid;
 }    
 
@@ -159,7 +157,7 @@ td {
     font-size: 15px;
     background-color: white;
     border-top-style: ridge;
-    border-color: dimgray;
+    border-color: darkslategray;
     margin-left: -0.59%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
