@@ -1,0 +1,53 @@
+#GitHub {
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 90px;
+    background: url("Bilder/GitHub.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: GitHub 10s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes GitHub {
+    0% { top: 80%; left: 0%; transform: rotate(0deg);}
+    50% { top: 0%; left: 90%;transform: rotate(-360deg);}
+    100% { top: 80%; left: 0%;transform: rotate(-720deg);}
+}
+
+#GitHub2 {
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 90px;
+    background: url("Bilder/GitHub.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: GitHub2 10s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes GitHub2 {
+    0% { top: 80%; right: 0%; transform: rotate(0deg);}
+    50% { top: 0%; right: 90%;transform: rotate(-360deg);}
+    100% { top: 80%; right: 0%;transform: rotate(-720deg);}
+}
+
+#GitHubLogo {
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 90px;
+    background: url("Bilder/GitHubLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: GitHubLogo 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes GitHubLogo {
+    0% { top: 90%; right: 49%; transform: rotate(0deg);}
+    50% { top: 40%; right: 49%;transform: rotate(-180deg);}
+    100% { top: 90%; right: 49%;transform: rotate(-360deg);}
+}

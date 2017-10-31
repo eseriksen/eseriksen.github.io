@@ -63,7 +63,7 @@ a:hover {
     flex-wrap: nowrap;
     justify-content: space-between;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: "Sukhumvit Set";
     margin-left: 480px;
     grid:
     }
@@ -82,12 +82,12 @@ a:hover {
     height: 2.5em;
     background-color: white;
     border-radius: 1px;
-    box-shadow: 3px 3px 3px darkslategray;
+    box-shadow: 3px 3px 3px gray;
     width: 475px;
     }
      
     #Meny li a:hover {
-    background-color: darkslategray;
+    background-color: darkseagreen;
     box-shadow: 3px 3px 3px limegreen;
     color: white;
     }
@@ -98,7 +98,7 @@ a:hover {
     }
 
     #Meny li a.showing {
-        background-color: darkslategray;
+        background-color: darkseagreen;
         color: white;
     }
 

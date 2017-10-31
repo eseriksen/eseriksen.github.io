@@ -45,7 +45,7 @@ h1 {
     list-style-type: none;
     display: inline;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: "Monaco";
     }
      
     #Meny li {
@@ -90,6 +90,18 @@ h2 {
     font-size: 40px;
 }
 
+h2::first-letter{color: red}
+
+h3 {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: "Monaco";
+    letter-spacing: -0.1em;
+}
+
+h3::first-letter{font-size: 30px}
+
 #Innhold {
     position: absolute;
     top: 30%;
@@ -130,13 +142,12 @@ h2 {
     line-height: 2em;
 }
 
-h2::first-letter{color: red}
-
 table {
     border-collapse: collapse;
     margin-left: 50px;
     margin-bottom: 100px;
     border-style: solid;
+    border-color: white;
     background-color: black;
     font-size: 15px;
     }
@@ -165,4 +176,13 @@ video {
     -webkit-media-controls-panel: yes;
     -webkit-media-controls-mute-button: yes;
     -webkit-media-controls-play-button: yes;
+}
+
+#Innhold div {
+    float: left;
+    margin-left: 40px;
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
 }
