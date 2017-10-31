@@ -136,16 +136,22 @@ table {
     border-collapse: collapse;
     margin-left: 50px;
     margin-bottom: 100px;
+    border-style: solid;
+    background-color: black;
+    font-size: 15px;
     }
 
-th {
-    background-color: black;
-    border-style: solid;
-}    
+#Innhold img { 
+    height: 90%;
+    width: 90%;
+}
 
-td {
-    border-style: solid;
-    background-color: black;
+#sans {
+    font-family: "Comic Sans MS"
+}
+
+#papyrus {
+    font-family: "Papyrus"
 }
 
 video {
@@ -154,6 +160,7 @@ video {
     width: 100%;
 }
 
-#audio {
-    background-color: green;
+audio {
+    color: red;
+    width: 50px;
 }

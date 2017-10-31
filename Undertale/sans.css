@@ -7,7 +7,7 @@
     background: url("bilder/sans.gif");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: sans 2s linear infinite;
+    animation: sans 10s linear infinite;
     animation-fill-mode: forwards;
 }
 

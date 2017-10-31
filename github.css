@@ -107,16 +107,39 @@ h2 {
     font-size: 30px;
 }
 
+#Innhold {
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    font-family: "Papyrus";
+}
+
+#Innhold ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    text-decoration: none;
+    margin: 30px;
+}
+
 #Bunn {
     position: absolute;
-    bottom: -75%;
+    bottom: 0%;
     height: 5%;
     width: 100%;
     text-align: center;
     font-size: 15px;
     background-color: white;
-    border-top-style: ridge;
-    border-color: darkslategray;
+    border-top-style: inset;
+    border-color: silver;
     margin-left: -0.59%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
