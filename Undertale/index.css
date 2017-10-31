@@ -105,9 +105,9 @@ h3::first-letter{font-size: 30px}
 
 #Innhold {
     position: absolute;
-    top: 30%;
+    top: 29%;
     left: 0%;
-    height: 65%;
+    height: 66%;
     width: 100%;
     text-align: left;
     line-height: 2em;
@@ -118,10 +118,6 @@ h3::first-letter{font-size: 30px}
     background-image: linear-gradient(to top, white, black);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#Innhold audio {
-    margin-left: 50px;
 }
 
 #skjema {
@@ -173,6 +169,7 @@ iframe {
 }
 
 #Innhold audio {
+    margin-left: 50px;
     color: red;
     -webkit-media-controls-panel: yes;
     -webkit-media-controls-mute-button: yes;
