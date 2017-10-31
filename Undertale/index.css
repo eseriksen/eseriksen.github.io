@@ -160,7 +160,11 @@ video {
     width: 100%;
 }
 
-audio {
+#Innhold audio {
     color: red;
     width: 50px;
+    -webkit-media-controls-panel;
+    -webkit-media-controls-mute-button;
+    -webkit-media-controls-play-button;
+    
 }
