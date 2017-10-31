@@ -97,7 +97,7 @@ h2 {
     height: 65%;
     width: 100%;
     text-align: left;
-    line-height: 2;
+    line-height: 2em;
     font-size: 25px;
     background-color: black;
     background-size: cover;
@@ -162,7 +162,7 @@ video {
 
 #Innhold audio {
     color: red;
-    -webkit-media-controls-panel
-    -webkit-media-controls-mute-button;
-    -webkit-media-controls-play-button;
+    -webkit-media-controls-panel: yes;
+    -webkit-media-controls-mute-button: yes;
+    -webkit-media-controls-play-button: yes;
 }

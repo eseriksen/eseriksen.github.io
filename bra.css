@@ -1,0 +1,17 @@
+#nettopp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 90px;
+    background: url("bilder/nettopp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: sans 10s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nettopp {
+    from {top: 0px;}
+    to {top: 200px;}
+}
