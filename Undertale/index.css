@@ -134,13 +134,13 @@ h3::first-letter{font-size: 30px}
     height: 5%;
     width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     background-color: white;
     border-top-style: ridge;
     border-color: lightgray;
     margin-left: -0.59%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 2em;
+    line-height: 3em;
 }
 
 table {
@@ -166,7 +166,7 @@ table {
     font-family: "Papyrus"
 }
 
-video {
+iframe {
     position: absolute;
     height: 100%;
     width: 100%;
