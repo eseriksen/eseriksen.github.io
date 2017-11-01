@@ -1,15 +1,11 @@
 
-#body {
-    background-color: whitesmoke;
-    top: 0%;
-    bottom: 0%;
-}
 
 #Tittel {
     position: absolute;
     top: 0%;
     width: 100%;
     bottom: 80%;
+    background-color: whitesmoke;
 }
 
 h1{
@@ -45,7 +41,6 @@ a:hover {
     height: 0%;
     width: 100%;
     margin-top: 20px; 
-    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -62,9 +57,10 @@ a:hover {
     align-items: center;
     grid:
     }
-
+    
     #Meny li {
-        margin-bottom: 5px;
+        margin-bottom: 6px;
+        font-size: 16px;
     }
      
     #Meny li a {
@@ -74,7 +70,7 @@ a:hover {
     text-align: center;
     padding-top: 10px;
     height: 2.5em;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 1px;
     box-shadow: 3px 3px 3px gray;
     width: 450px;
@@ -86,7 +82,8 @@ a:hover {
     box-shadow: 3px 3px 3px limegreen;
     color: white;
     transition-duration: 0.4s;
-    height: 2.5em;
+    font-size: 18px;
+    height: 2.75em;
     width: 500px;
     }
      
