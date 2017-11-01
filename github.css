@@ -59,8 +59,9 @@ a:hover {
     }
     
     #Meny li {
-        margin-bottom: 6px;
+        margin-bottom: 2px;
         font-size: 16px;
+        border: 1px solid silver;
     }
      
     #Meny li a {
@@ -85,6 +86,7 @@ a:hover {
     font-size: 18px;
     height: 2.75em;
     width: 500px;
+    border: 0px none silver;
     }
      
     #Meny li a:active {
