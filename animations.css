@@ -12,8 +12,8 @@
 
 @keyframes GitHub {
     0% { top: 80%; left: 0%; transform: rotate(0deg);}
-    50% { top: 0%; left: 90%;transform: rotate(-360deg);}
-    100% { top: 80%; left: 0%;transform: rotate(-720deg);}
+    50% { top: 0%; left: 90%;transform: rotate(360deg);}
+    100% { top: 80%; left: 0%;transform: rotate(720deg);}
 }
 
 #GitHub2 {

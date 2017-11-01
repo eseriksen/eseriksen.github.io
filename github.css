@@ -1,6 +1,8 @@
 
-body {
+#body {
     background-color: whitesmoke;
+    top: 0%;
+    bottom: 0%;
 }
 
 #Tittel {
@@ -8,11 +10,6 @@ body {
     top: 0%;
     width: 100%;
     bottom: 80%;
-    margin-left: -0.59%;
-    background-color: whitesmoke;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 h1{
@@ -45,7 +42,7 @@ a:hover {
     position: absolute;
     top: 20%;
     left: 0%;
-    height: 10%;
+    height: 0%;
     width: 100%;
     margin-top: 20px; 
     background-color: whitesmoke;
@@ -59,10 +56,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: hidden;
     font-family: "Sukhumvit Set";
-    margin-left: 480px;
+    align-items: center;
     grid:
     }
 
@@ -74,14 +71,14 @@ a:hover {
     text-decoration: none;
     color:black;
     display: block;
-    margin-left: 4px;
     text-align: center;
     padding-top: 10px;
     height: 2.5em;
     background-color: white;
     border-radius: 1px;
     box-shadow: 3px 3px 3px gray;
-    width: 475px;
+    width: 450px;
+    transition-duration: 0.2s;
     }
      
     #Meny li a:hover {
@@ -89,6 +86,8 @@ a:hover {
     box-shadow: 3px 3px 3px limegreen;
     color: white;
     transition-duration: 0.4s;
+    height: 2.5em;
+    width: 500px;
     }
      
     #Meny li a:active {
@@ -101,17 +100,11 @@ a:hover {
         color: white;
     }
 
-h2 {
-    margin-left: 40px;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-
 #Innhold {
     position: absolute;
     top: 85%;
     left: 0%;
-    height: 10%;
+    height: 0%;
     width: 100%;
     font-size: 16px;
     color: black;
