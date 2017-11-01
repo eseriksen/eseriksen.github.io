@@ -11,7 +11,7 @@
 h1{
     margin-top: 30px;
     font-family: "Comic Sans MS";
-    text-shadow: 2px 2px darkseagreen;
+    text-shadow: 3px 3px darkseagreen;
     font-size: 80px;
     font-style: italic;
     letter-spacing: 0.1em;
@@ -59,9 +59,8 @@ a:hover {
     }
     
     #Meny li {
-        margin-bottom: 2px;
+        margin-bottom: 4px;
         font-size: 16px;
-        border: 1px solid silver;
     }
      
     #Meny li a {
@@ -76,6 +75,7 @@ a:hover {
     box-shadow: 3px 3px 3px gray;
     width: 450px;
     transition-duration: 0.2s;
+    border: 1px solid silver;
     }
      
     #Meny li a:hover {
@@ -92,6 +92,7 @@ a:hover {
     #Meny li a:active {
     transform: translate(2px,2px);
     box-shadow: none;
+    border: 0px none silver;
     }
 
     #Meny li a.showing {
