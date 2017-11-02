@@ -86,12 +86,15 @@ a:hover {
     border-radius: 20px;
     box-shadow: 2px 2px 2px dimgray;
     width: 275px;
+    transition-duration: 0.4s;
+    border: 1px solid silver;
     }
      
     #Meny li a:hover {
     background-color: silver;
-    box-shadow: 2px 2px 2px navy;
     color: mediumblue;
+    box-shadow: 2px 2px 2px navy;
+    width: 300px;
     }
      
     #Meny li a:active {
@@ -102,6 +105,7 @@ a:hover {
     #Meny li a.showing {
         background-color: silver;
         color: mediumblue;
+        width: 300px;
     }
 
 h2 {
