@@ -129,6 +129,10 @@ a:hover {
     margin: 15px;
 }
 
+address {
+    font-style: normal;
+}
+
 #Bunn {
     position: absolute;
     bottom: 0%;
@@ -136,7 +140,7 @@ a:hover {
     width: 100%;
     text-align: center;
     font-size: 15px;
-    line-height: 3em;
+    line-height: 1.25em;
     background-color: white;
     border-top-style: dotted;
     border-width: 2px;
