@@ -1,0 +1,26 @@
+:root {
+    --fyll:10px;
+}
+
+
+header {
+    color: green;
+    font-size: 1.2m;
+    padding: var(--fyll);
+    padding-bottom: 20px;
+}
+
+article {
+    font-style: 1.1em;
+    padding: var(--fyll);
+}
+
+#liste {
+    width: 100%;
+    height: 50vh;
+    border: 2px solid red;
+}
+
+.land {
+    background-color: whitesmoke;
+}
