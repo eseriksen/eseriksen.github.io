@@ -6,7 +6,7 @@
     background: url("Bilder/GitHub.png");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: GitHub 10s linear infinite;
+    animation: GitHub 15s linear infinite;
     animation-fill-mode: forwards;
 }
 
@@ -24,7 +24,7 @@
     background: url("Bilder/GitHub.png");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: GitHub2 10s linear infinite;
+    animation: GitHub2 15s linear infinite;
     animation-fill-mode: forwards;
 }
 
@@ -47,7 +47,7 @@
 }
 
 @keyframes GitHubLogo {
-    0% { top: 90%; right: 49%; transform: rotate(0deg);}
-    50% { top: 40%; right: 49%;transform: rotate(-180deg);}
-    100% { top: 90%; right: 49%;transform: rotate(-360deg);}
+    0% { top: 90%; right: 48%; transform: rotate(0deg);}
+    50% { top: 45%; right: 48%;transform: rotate(-180deg);}
+    100% { top: 90%; right: 48%;transform: rotate(-360deg);}
 }

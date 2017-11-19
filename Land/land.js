@@ -8,7 +8,7 @@ function setup() {
         storageBucket: "project-lime1.appspot.com",
         messagingSenderId: "501929299812"
     };
-    Firebase.initializeApp(config);
+    firebase.initializeApp(config);
     let divListe = document.getElementById("liste");
     let ref = database().ref("nations");
 
