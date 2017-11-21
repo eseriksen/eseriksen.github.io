@@ -2,6 +2,7 @@
     --fyll:10px;
 }
 
+
 header {
     color: black;
     text-align: center;
@@ -16,7 +17,7 @@ article {
     padding: var(--fyll);
 }
 
-.land {
+.lister {
     background-color: whitesmoke;
   }
 

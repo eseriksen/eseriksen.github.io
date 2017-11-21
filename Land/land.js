@@ -28,10 +28,10 @@ function setup() {
                     <li> War: ${info.perk.war}
                     <li> Science: ${info.perk.science}
                 </ul>
+                <li>${info.picture}
             </ul>
           </div>
         `;
     }
     ref.on("child_added", visLand);
-
 }
