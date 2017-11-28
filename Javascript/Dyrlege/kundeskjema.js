@@ -8,7 +8,6 @@ function setup() {
         storageBucket: "project-lime1.appspot.com",
         messagingSenderId: "501929299812"
     };
-
     firebase.initializeApp(config);
     let spanKunde = document.getElementById("kundevelger");
     let divDyr = document.getElementById("dyr");
@@ -27,7 +26,8 @@ function setup() {
     });
 
     function visDyr(e) {
-        let ref = firebase.database().ref("dyr");
+        let valgt = +document.getElementById("kundenr").value;
+        let ref = firebase.database().ref("dyr").orderByChild("kundenr").equalTo(valgt);
         ref.once("value").then(function (snapshot) {
             let dyrene = snapshot.val();
             if (dyrene) {
@@ -41,12 +41,14 @@ function setup() {
         });
     }
 
+
     function makeDrop(kunder) {
         let box = '<select id="kundenr">';
         let kundenr = Object.keys(kunder);
         let navn = kundenr.map(e =>
-            `<option values="${e}">${kunder[e].fornavn}</option>`);
+            `<option value="${e}">${kunder[e].fornavn}</option>`);
         box += navn.join("") + "</select>";
         return box;
     }
+
 }
