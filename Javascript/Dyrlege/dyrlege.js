@@ -47,5 +47,5 @@ function setup() {
           </div>
         `;
     }
-    ref.on("child_added", visDyr);
+    ref.on("child_added", visDyr);*/
 }
