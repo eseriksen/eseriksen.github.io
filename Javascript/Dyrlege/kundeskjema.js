@@ -10,18 +10,17 @@ function setup() {
     };
 
     firebase.initializeApp(config);
-    let divListe = document.getElementById("liste");
+    let spanKunde = document.getElementById("kundevelger");
     let divDyr = document.getElementById("dyr");
 
     let ref = firebase.database().ref("kunde");
 
     ref.once("value").then(function (snapshot) {
         let kundene = snapshot.val();
-        if (kundene); {
+        if (kundene) {
             let dropBox = makeDrop(kundene);
-            divListe.innerHTML = dropBox;
+            spanKunde.innerHTML = dropBox;
         }
-
     });
 
     function makeDrop(kunder) {
@@ -31,7 +30,6 @@ function setup() {
             `<option values="${e}">${kunder[e].fornavn}</option>`);
         box += navn.join("") + "</select>";
         return box;
-
     }
 
 }

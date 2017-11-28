@@ -20,6 +20,16 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 40px;
+    font-family: "Comic Sans MS";
+    text-shadow: 3px 3px darkseagreen;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
 a:link {
     color: #242124;
     text-decoration: none;
