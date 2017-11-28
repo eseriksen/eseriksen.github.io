@@ -10,6 +10,7 @@ function setup() {
     };
     firebase.initializeApp(config);
     let divListe = document.getElementById("liste");
+    
     let ref = firebase.database().ref("nations");
 
     function visLand(snapshot) {
