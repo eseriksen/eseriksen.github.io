@@ -23,7 +23,7 @@ h1 {
 h2 {
     margin-top: 40px;
     font-family: "Comic Sans MS";
-    text-shadow: 3px 3px darkseagreen;
+    text-shadow: 3px 3px #FBEC5D;
     font-size: 60px;
     font-style: italic;
     letter-spacing: 0.1em;
@@ -107,6 +107,49 @@ a:hover {
 
     #Meny li a.showing {
         background-color: darkseagreen;
+        color: white;
+    }
+
+    #Meny #liste2 {
+        margin-bottom: 4px;
+        font-size: 16px;
+    }
+     
+    #Meny #liste2 a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    height: 2.5em;
+    background-color: rgba(241, 241, 241, 0.904);
+    border-radius: 1px;
+    box-shadow: 3px 3px 3px gray;
+    width: 450px;
+    transition-duration: 0.2s;
+    border: 1px solid silver;
+    }
+     
+    #Meny #liste2 a:hover {
+    background-color: #E4D96F;
+    box-shadow: 3px 3px 3px #FBEC5D;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    height: 2.75em;
+    width: 500px;
+    border: 0px none silver;
+    }
+     
+    #Meny #liste2 a:active {
+    transform: translate(2px,2px);
+    transition-duration: 0.1s;
+    box-shadow: none;
+    border: 0px none silver;
+    }
+
+    #Meny #liste2 a.showing {
+        background-color: #FBEC5D;
         color: white;
     }
 
