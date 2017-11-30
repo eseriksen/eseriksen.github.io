@@ -2,7 +2,6 @@
     --fyll:10px;
 }
 
-
 header {
     color: black;
     text-align: center;
@@ -23,6 +22,7 @@ article {
 
 #liste {
     width: 90vw;
-    min-height: 50vh;
+    min-height: 5vh;
     border: 2px solid red;
     padding: 1em;
+}
