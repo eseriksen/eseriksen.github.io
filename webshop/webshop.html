@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webshop</title>
+    <link rel="shortcut icon" href="../Bilder/webshop.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="webshop.css">
+</head>
+
+<body>
+    <div id="bakgrunn"><img src="../Bilder/webshop2.png"></div>
+    
+    <div class="Tittel">
+        <h1>
+            <a href="https://github.com/eseriksen/eseriksen.github.io">Webshop</a>
+        </h1>
+        <img id="img" src="../Bilder/webshop.png">
+    </div>
+    <div id="Meny">
+        <ul>
+            <li>
+                <a href="ting.html">diverse ting</a>
+            </li>
+            <li>
+                <a href="noe.html">noe</a>
+            </li>
+            <li>
+                <a href="omwebshop.html">om webshop</a>
+            </li>
+         </ul>
+    </div>
+
+    <div id="Innhold">
+        <form>
+            Velg varer
+            <select name="varer">
+                <option value="vare">Vare</option>
+                <option value="diverse">Diverse</option>
+                <option value="ting">Ting</option>
+
+            </select>
+            <br>
+            <label> Antall
+                <input type="number"> </label>
+            <br> Adresse
+            <input type="text" name="adresse">
+            <br>Betaling
+            <input type="radio" name="card" value="visa"> Visa
+            <input type="radio" name="card" value="mastercard"> MasterCard
+            <input type="radio" name="card" value="bitcoin"> Bitcoin
+            <br>Gave????
+            <input type="radio" name="mulig" value="ja"> JA
+            <input type="radio" name="mulig" value="nei"> nei
+            <br>
+            <button id="bestill" type="button">Bestill... </button>
+        </form>
+    </div>
+
+    <div id="Bunn">
+        <address>
+            Laget av
+            <a href="mailto:esorhaugeriksen@gmail.com">Emil Sørhaug Eriksen</a>
+        </address>
+        <a href="https://www.urbandictionary.com/define.php?term=copyright">Copyright ©
+    </div>
+</body>
+
+</html>
