@@ -1,17 +1,19 @@
 #Julenissen {
     position: absolute;
-    top: 200px;
-    width: 75px;
-    height: 90px;
-    background: url("Julenissen.png");
+    z-index: 1;
+    width: 30%;
+    height: 30%;
+    background: url("../Bilder/Julenissen.png");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: Julenissen 5s linear infinite;
+    animation: Julenissen 10s linear infinite;
     animation-fill-mode: forwards;
 }
 
 @keyframes Julenissen {
-    0% { top: 90%; right: 70%; transform: rotate(0deg);}
-    50% { top: 100%; right: 30%;transform: rotate(-180deg);}
-    100% { top: 90%; right: 70%;transform: rotate(-360deg);}
+    0% { top: 40%;  right: 0%; transform: rotate(0deg);}
+    25% { top: 10%; right: 30%;transform: rotate(0deg);}
+    50% { top: 40%; right: 70%;transform: rotate(-90deg);}
+    75% { top: 70%; right: 30%;transform: rotate(-180deg);}
+    100% { top: 40%; right: 0%;transform: rotate(-360deg);}
 }
