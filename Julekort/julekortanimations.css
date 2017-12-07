@@ -1,0 +1,17 @@
+#Julenissen {
+    position: absolute;
+    top: 200px;
+    width: 75px;
+    height: 90px;
+    background: url("Julenissen.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: Julenissen 5s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Julenissen {
+    0% { top: 90%; right: 70%; transform: rotate(0deg);}
+    50% { top: 100%; right: 30%;transform: rotate(-180deg);}
+    100% { top: 90%; right: 70%;transform: rotate(-360deg);}
+}

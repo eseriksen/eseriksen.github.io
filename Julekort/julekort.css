@@ -1,0 +1,133 @@
+
+
+.Tittel {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    bottom: 0%;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family: "Comic Sans MS";
+    text-shadow: 3px 3px darkseagreen;
+    font-size: 80px;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+#bakgrunn img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-left: -0.59%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 2px orange ridge;
+}
+
+h2 {
+    margin-top: 40px;
+    font-family: "Comic Sans MS";
+    text-shadow: 3px 3px #FBEC5D;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+a:link {
+    color: #242124;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #242124;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #242124;
+    text-decoration: underline;
+}
+
+#himmel { 
+    position: absolute;
+    bottom: 30%;
+    left: 0%;
+    height: 70%;
+    width: 100%;
+    background-color: darkblue; 
+}
+
+#himmel ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow: hidden;
+    font-family: "Sukhumvit Set";
+    align-items: center;
+    grid:
+    }
+    
+    #himmel li {
+        margin-bottom: 4px;
+        font-size: 16px;
+    }
+     
+    #himmel li a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    height: 2.5em;
+    background-color: rgba(241, 241, 241, 0.904);
+    border-radius: 1px;
+    box-shadow: 3px 3px 3px gray;
+    width: 450px;
+    transition-duration: 0.2s;
+    border: 1px solid silver;
+    }
+     
+    #himmel li a:hover {
+    background-color: darkseagreen;
+    box-shadow: 3px 3px 3px limegreen;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 18px;
+    height: 2.75em;
+    width: 500px;
+    border: 0px none silver;
+    }
+     
+    #himmel li a:active {
+    transform: translate(2px,2px);
+    transition-duration: 0.1s;
+    box-shadow: none;
+    border: 0px none silver;
+    }
+
+    #himmel li a.showing {
+        background-color: darkseagreen;
+        color: white;
+    }
+
+#snø {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 30%;
+    width: 100%;
+    font-size: 16px;
+    color: black;
+    font-family: "Papyrus";
+    background-color: snow;
+}
