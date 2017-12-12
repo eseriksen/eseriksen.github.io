@@ -8,16 +8,11 @@
     <title>Julekort</title>
     <link rel="shortcut icon" href="../Bilder/juletreicon.ico" type="image/png" />
     <link rel="stylesheet" type="text/css" href="julekort.css">
+    <script src="howler.min.js"></script>
+    <script src="julekort.js"></script>
 </head>
 
 <body>
-    <div id="bakgrunn">
-    </div>
-    <div class="Tittel">
-        <h1>
-            <a href="https://github.com/eseriksen/eseriksen.github.io">Julekort</a>
-        </h1>
-    </div>
     <div id="himmel">
         <div class="stjerne"></div>
         <div class="stjerne"></div>
@@ -44,11 +39,20 @@
         <div class="stjerne"></div>
         <div class="stjerne"></div>
     </div>
-
     <div id="Julenissen"></div>
-
     <div id="snø">
+        <div class="pakke"></div>
     </div>
 </body>
 
 </html>
+
+<script>
+    var sound = new Howl({
+        src: ['../Bilder/SilentNight.mp3', 'hoho.mp3']
+    });
+    sound.play();
+</script>
+<script>
+    setup();
+</script>

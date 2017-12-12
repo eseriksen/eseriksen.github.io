@@ -78,7 +78,7 @@ a:hover {
     display: block;
     text-align: center;
     padding-top: 10px;
-    height: 2.5em;
+    height: 2.25em;
     background-color: rgba(241, 241, 241, 0.904);
     border-radius: 1px;
     box-shadow: 3px 3px 3px gray;
@@ -93,7 +93,7 @@ a:hover {
     color: white;
     transition-duration: 0.4s;
     font-size: 18px;
-    height: 2.75em;
+    height: 2.5em;
     width: 500px;
     border: 0px none silver;
     }
