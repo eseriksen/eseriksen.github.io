@@ -1,17 +1,12 @@
 #himmel { 
     position: absolute;
-    bottom: 20%;
-    height: 80%;
+    bottom: 10%;
+    height: 90%;
     width: 100%;
-    background-color: darkblue; 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 40px;
     grid-auto-rows: minmax(40px, auto);
-    background-image: url("../Bilder/winter.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-left: -0.59%;
 }
 
@@ -26,12 +21,21 @@
 
 #snø {
     margin-left: -0.59%;
-    height: 20%;
+    height: 0%;
     width: 100%;
     background-color: snow;
+    position: relative;
+}
+
+#bakgrunn {
+    position: absolute;
+    background-image: url("../Bilder/winter.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-left: -0.59%;
 }
 
 #Julenissen {
@@ -54,18 +58,18 @@
 
 .pakke {
     position: absolute;
-    right: 30vw;
-    top: -40px;
+    left: -50px;
+    top: -50px;
     width: 8px;
     height: 30px;
     background-color: red;
     border-left: solid green 21px;
     border-right: solid green 21px;
-    animation: dropGifts 3s 2s ease-in-out;
+    animation: dropGifts 2s ease-in-out;
     animation-fill-mode: forwards;
 }
 
 @keyframes dropGifts {
     0% { top: 120px; }
-    100% { top: 80vh; }
+    100% { top: 90vh; }
 }
