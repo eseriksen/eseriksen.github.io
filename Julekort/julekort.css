@@ -27,9 +27,9 @@
     width: 8px;
     }
 
-    100% { background-color: rgb(245, 245, 83); 
-    height: 13px;
-    width: 13px;
+    100% { background-color: rgb(245, 245, 83);
+    height: 11px;
+    width: 11px;
     }
 }
 
@@ -60,7 +60,7 @@
 @keyframes Julenissen {
     0% { top: 30%;  right: -100vw; transform: rotate(0deg);}
     50% { top: 10%; right: 30vw;transform: rotate(0deg);}
-    100% { top: 20%; right: 100vw;transform: rotate(-45deg);}
+    100% { top: 20%; right: 100vw;transform: rotate(-40deg);}
 }
 
 .pakke {
