@@ -16,4 +16,17 @@ function setup() {
         pakke.style.top = (e.screenY - 50) + "px";
         divHimmel.appendChild(pakke);
     }
+    function makeSnø() {
+        for (let i = 0; i < 250; i++) {
+            let snø = document.createElement('div');
+            snø.className = "snø";
+            snø.style.left = Math.random() * 600 + "vw";
+            snø.style.animationDelay = Math.random() * 5000 + "ms";
+            let radious = Math.random() * 5 + 1;
+            snø.style.width = (Math.random() * 5 + 1) + "px";
+            snø.style.height = (Math.random() * 5 + 1) + "px";
+            divHimmel.appendChild(snø);
+        }
+    }
+    makeSnø();
 }
