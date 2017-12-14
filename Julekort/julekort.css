@@ -53,31 +53,30 @@
     background: url("../Bilder/Julenissen.png");
     background-size: contain;
     background-repeat: no-repeat;
-    animation: Julenissen 5s linear infinite;
+    animation: Julenissen 6s linear infinite;
     animation-fill-mode: forwards;
 }
 
 @keyframes Julenissen {
     0% { top: 30%;  right: -100vw; transform: rotate(0deg);}
-    50% { top: 10%; right: 30vw;transform: rotate(0deg);}
-    100% { top: 20%; right: 100vw;transform: rotate(-40deg);}
+    100% { top: 10%; right: 100vw;transform: rotate(0deg);}
 }
 
 .pakke {
     position: absolute;
-    left: -50px;
-    top: -50px;
+    left: -500px;
+    top: -500px;
     width: 8px;
     height: 30px;
-    background-color: red;
-    border-left: solid green 21px;
-    border-right: solid green 21px;
+    background-color: gold;
+    border-left: solid red 21px;
+    border-right: solid red 21px;
     animation: dropGifts 2s ease-in-out;
     animation-fill-mode: forwards;
 }
 
 @keyframes dropGifts {
-    0% { top: 120px; }
+    0% { top: 200px; }
     100% { top: 90vh; }
 }
 
