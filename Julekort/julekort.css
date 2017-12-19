@@ -33,7 +33,6 @@
     }
 }
 
-
 #bakgrunn {
     position: absolute;
     background-image: url("../Bilder/winter.jpg");
@@ -64,8 +63,8 @@
 
 .pakke {
     position: absolute;
-    left: -500px;
-    top: -500px;
+    right: -50px;
+    top: 0px;
     width: 8px;
     height: 30px;
     background-color: gold;
@@ -80,7 +79,7 @@
     100% { top: 90vh; }
 }
 
-.snø {
+.powder, .snø {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -92,7 +91,38 @@
     animation-fill-mode: forwards;
 }
 
+.powder {
+    top: 300px;
+    animation: snøkanon 3s linear infinite;
+}
+
 @keyframes snø {
     0% { top: 0px; }
     100% { top: 90vh; }
+}
+
+@keyframes snøkanon {
+     0% {  left:  80px; top: 540px; }
+     10% { left: 160px; top: 480px; }
+     20% { left: 240px; top: 430px; }
+     30% { left: 320px; top: 390px; }
+     40% { left: 400px; top: 360px; }
+     50% { left: 480px; top: 350px; }
+     60% { left: 560px; top: 360px; }
+     70% { left: 640px; top: 390px; }
+     80% { left: 720px; top: 430px; }
+     90% { left: 800px; top: 480px; }
+    100% { left: 880px; top: 540px; }
+}
+
+#kanon {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    background-image: url("snøkanon.png");
+    background-size: 100px;
+    left: 20px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+
 }
