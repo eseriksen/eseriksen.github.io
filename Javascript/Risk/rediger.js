@@ -14,20 +14,28 @@ function setup() {
     let inpLand = document.getElementById("land");
     let inpRegion = document.getElementById("region");
 
-    let btnLagre = document.getElementById("lagre");
-    btnLagre.addEventListener("click", lagreLand);
-    
+    let btnLagreLand = document.getElementById("lagreland");
+    btnLagreLand.addEventListener("click", lagreLand);
+
+    let inpKort = document.getElementById("kort");
+    let inpAntallNye = document.getElementById("antallnye");
+
+    let btnLagreKort = document.getElementById("lagrekort");
+    btnLagreKort.addEventListener("click", lagreKort);
 
     function lagreLand(e) {
         let land = inpLand.value;
         let kortid = inpRegion.value;
         let ref = database.ref("land/" + land);
-        ref.set( { kortid });
-
-        function lagreKort(e) {
-            let kort = inpKort.value;
-            let antallnye = inpAntallNye.value;
-            let ref = database.ref("kort/" + kort);
-            ref.set( { antallnye });
+        ref.set({ kortid });
     }
+
+    function lagreKort(e) {
+        let kort = inpKort.value;
+        let antallnye = inpAntallNye.value;
+        let ref = database.ref("kort/" + kort);
+        ref.set({ antallnye });
+    }
+
+
 }

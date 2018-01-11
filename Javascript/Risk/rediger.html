@@ -13,28 +13,34 @@
 
 <body>
     <div id="main">
-        <h4>Rediger land</h4>
-        <form>
-            <br>Land
-            <input id="land" type="text">
-            <br>Region
-            <input id="region" type="text">
-            <p>
-                <button type="button" id="lagre">Legg til land</button>
-            </p>
-        </form>
-
-        <h4>Kort (region)</h4>
-        <form>
-            <br>Kort
-            <input id="kort" type="text">
-            <br>Antall
-            <input id="antall" type="number">
-            <p>
-                <button type="button" id="lagre2">Legg til kort</button>
-            </p>
-        </form>
+        <div>
+            <h4>Rediger land</h4>
+            <form>
+                <br>Land
+                <input id="land" type="text">
+                <br>Region
+                <input id="region" type="text">
+                <p>
+                    <button type="button" id="lagreland">
+                        Legg til land</button>
+                </p>
+            </form>
+        </div>
+        <div>
+            <h4>Rediger Kort</h4>
+            <form>
+                <br>Kort (region)
+                <input id="kort" type="text">
+                <br>Antall
+                <input id="antallnye" type="number">
+                <p>
+                    <button type="button" id="lagrekort">
+                        Legg til land</button>
+                </p>
+            </form>
+        </div>
     </div>
+
     <script>
         setup();
     </script>
