@@ -1,0 +1,65 @@
+#main {
+    position: relative;
+}
+
+#trump {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 0;
+    top: 0;
+    background-image: url("trump.png");
+    background-position-x: 0;
+    background-position-y: -100px;
+    border: solid black;
+}
+
+#trump {
+    animation: step 800ms infinite steps(6), walk 4s infinite linear alternate;
+}
+
+@keyframes walk {
+    0% {
+        left: 10vw;
+        top: 60vh;
+    }
+    100% {
+        left: 80vw;
+        top: 60vh;
+    }
+}
+
+@keyframes step {
+    100% {
+        background-position-x: -600px;
+    }
+}
+
+#boks {
+    position: absolute; 
+    left: 70vw;
+    
+}
+
+/*
+    40% {
+        left: 80vw;
+        top: 20vh;
+        background-position-y: -200px;
+    }
+    60% {
+        left: 10vw;
+        top: 20vh;
+        background-position-y: -300px;
+    }
+    80% {
+        left: 10vw;
+        top: 20vh;
+        background-position-y: 0;
+    }
+    100% {
+        left: 10vw;
+        top: 60vh;
+        background-position-y: -100px;
+    }
+    */
