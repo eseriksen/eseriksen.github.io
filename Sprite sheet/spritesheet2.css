@@ -1,0 +1,112 @@
+#main {
+    position: relative;
+}
+
+#bil {
+    position: absolute;
+    width: 450px;
+    height: 130px;
+    left: 0;
+    top: 0;
+    background-image: url("bil1.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 0;
+    background-position-y: 0;
+}
+
+#bil {
+    animation: kjør 4s, opp 2s 4s, ned 3s 10s, kjørut 2s 13s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes kjør {
+    0% {
+        left: -20vw;
+        top: 60vh;
+    }
+    100% {
+        left: 70vw;
+        top: 60vh;
+    }
+}
+
+@keyframes opp {
+    0% {
+        left: 70vw;
+        top: 60vh;
+    }
+    100% {
+        left: 70vw;
+        top: 30vh;
+    }
+}
+
+@keyframes ned {
+    0% {
+        left: 70vw;
+        top: 30vh;
+    }
+    100% {
+        background-image: url("bil2.png");
+        left: 70vw;
+        top: 60vh;
+    }
+}
+
+@keyframes kjørut {
+    0% {
+        left: 70vw;
+        top: 60vh;
+    }
+    100% {
+        left: 0vw;
+        top: 60vh;
+    }
+}
+
+#lift {
+    position: absolute;
+    background-color: black;
+    width: 450px;
+    height: 5px;
+    left: 60vw;
+    top: 71vh;
+}
+
+#lift {
+    animation: opp2 2.2s 4s, ned2 3s 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opp2 {
+    0% {
+        left: 60vw;
+        top: 71vh;
+    }
+    100% {
+        left: 60vw;
+        top: 41vh;
+    }
+}
+
+@keyframes ned2 {
+    0% {
+        left: 60vw;
+        top: 41vh;
+    }
+    100% {
+        left: 60vw;
+        top: 71vh;
+    }
+}
+
+#mechanic {
+    position: absolute;
+    background-image: url("mechanic.jpg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    left: 20vw;
+    top: 20vh;
+}
