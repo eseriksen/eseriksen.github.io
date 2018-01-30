@@ -105,8 +105,23 @@
     position: absolute;
     background-image: url("mechanic.jpg");
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    left: 20vw;
-    top: 20vh;
+    background-size: 25%;
+    width: 400px;
+    height: 400px;
+    right: -50vw;
+    top: 60vh;
+    animation: walk 2s 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes walk {
+    0% {
+        right: -50vw;
+        top: 60vh;
+    }
+    100% {
+        transform: rotatey(0.5turn);
+        right: 5vw;
+        top: 60vh;
+    }
 }
