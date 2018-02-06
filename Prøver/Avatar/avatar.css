@@ -1,0 +1,19 @@
+#main {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tittel {
+    font-family: "Papyrus";
+    font-size: 1.8em;
+    font-style: italic;
+    margin: 20px;
+}
+
+#avatar {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-gap: 4px;
+    grid-auto-rows: minmax(20px, auto);
+}
