@@ -1,0 +1,11 @@
+#liste {
+    position: absolute;
+    margin: 10px;
+}
+
+#tittel {
+    font-family: "Papyrus";
+    font-size: 1.8em;
+    font-style: italic;
+    margin: 20px;
+}
