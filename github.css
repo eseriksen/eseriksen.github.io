@@ -201,3 +201,7 @@ address {
     margin-left: -0.59%;
     font-family: "Sukhumvit Set";
 }
+
+#Meny #alternate {
+    border: 2px solid lime;
+}
