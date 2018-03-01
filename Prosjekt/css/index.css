@@ -1,3 +1,9 @@
+#background {
+    background: url("../bilder/.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
 #Tittel {
     position: absolute;
     top: 0%;
@@ -8,20 +14,21 @@
     background-repeat: no-repeat;
     background-position: center;
     font-family: "Sukhumvit Set";
+    font-size: 2em;
 }
 
-#Menu { 
+#Menu {
     position: absolute;
     top: 20%;
     left: 0%;
     height: 10%;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-    #Menu ul {
+#Menu ul {
     -webkit-padding-start: 0;
     list-style-type: none;
     display: flex;
@@ -31,9 +38,9 @@
     overflow: hidden;
     font-family: sans-serif;
     margin: 1px;
-    }     
-     
-    #Menu li a {
+}
+
+#Menu li a {
     text-decoration: none;
     color: mediumblue;
     display: block;
@@ -42,23 +49,23 @@
     height: 2.5em;
     width: 275px;
     transition-duration: 0.4s;
-    border: 1px solid white;
-    }
-     
-    #Menu li a:hover {
+}
+
+#Menu li a:hover {
     background-color: silver;
     color: darkblue;
-    box-shadow: 2px 2px 2px white;
+    border: 1px solid white;
+    height: 2.5em;
     width: 300px;
-    }
-     
-    #Menu li a:active {
-    transform: translate(1px,1px);
-    box-shadow: none;
-    }
+}
 
-    #Menu li a.showing {
-        background-color: silver;
-        color: darkblue;
-        width: 300px;
-    }
+#Menu li a:active {
+    transform: translate(1px, 1px);
+    box-shadow: none;
+}
+
+#Menu li a.showing {
+    background-color: silver;
+    color: darkblue;
+    width: 300px;
+}

@@ -1,5 +1,3 @@
-
-
 #Tittel {
     position: absolute;
     top: 0%;
@@ -203,5 +201,5 @@ address {
 }
 
 #Meny #alternate {
-    border: 2px solid lime;
+    border: 2px solid orange;
 }
