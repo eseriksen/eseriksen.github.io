@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="bilder/Viking logo.jpg" type="image/jpg" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/bruker.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -17,21 +17,23 @@
         <a class="active" href="index.html">Hjem</a>
         <a href="html/spillerstall.html">AB</a>
         <a href="html/shop.html">Shop</a>
+        <a href="html/omoss.html">Om oss</a>
         <div class="dropdown">
             <button class="dropbtn">Registrer deg ↓</button>
             <div class="dropdown-content">
-                    <a href="html/login.html">Logg inn</a>
+                <a href="html/login.html">Logg inn</a>
             </div>
         </div>
         <div class="search-container">
             <form action="/action_page.php">
-                <input type="text" placeholder="Søk..." name="search">
+                <input type="text" placeholder="Søk..." name="search" id="find">
                 <button type="submit">
                     <i class="fa fa-search"></i>
                 </button>
             </form>
         </div>
     </div>
+    <div id="resultat"></div>
     <div id="background"></div>
 </body>
 
