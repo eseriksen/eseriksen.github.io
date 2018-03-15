@@ -1,0 +1,56 @@
+#galleri {
+    margin-top: 10vh;
+    position: relative;
+    width: 90vw;
+    left: 5vw;
+    height: 60vh;
+    border: solid #381B46 1px;
+}
+
+.bilde {
+    position: absolute;
+    width: calc(90vw - 50px);
+    height: calc(90vh - 50px);
+    left: 25px;
+    top: 25px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    z-index: 1;
+    transition: 1s;
+}
+
+#b1 {
+    background-image: url(".jpg");
+}
+
+#b2 {
+    background-image: url(".jpg");
+}
+
+#b3 {
+    background-image: url(".jpg");
+}
+
+#r1:checked~#b1 {
+    opacity: 1;
+}
+
+#r2:checked~#b2 {
+    opacity: 1;
+}
+
+#r3:checked~#b3 {
+    opacity: 1;
+}
+
+#galleri input {
+    position: relative;
+    z-index: 9;
+    margin-top: 80vh;
+    background-color: rgba(20, 20, 90, 0.3);
+}
+
+#r1 {
+    margin-left: calc((90vw - 100px) / 2);
+}

@@ -16,11 +16,11 @@
     left: 65%;
 }
 
-#bakgrunn img{
+#bakgrunn img {
     position: absolute;
     width: 100%;
     height: 85%;
-    top:15%;
+    top: 15%;
     z-index: -1;
     margin-left: -0.59%;
     background-size: cover;
@@ -64,35 +64,35 @@ a:hover {
     text-decoration: underline;
 }
 
-#Meny { 
+#Meny {
     position: absolute;
     top: 20%;
     left: 0%;
     height: 0%;
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
-    #Meny ul {
-        -webkit-padding-start: 0;
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        overflow: hidden;
-        font-family: sans-serif;
-        margin: 1px;
-    }
-    
-    #Meny li {
-        margin-bottom: 4px;
-        font-size: 16px;
-    }
-     
-    #Meny li a {
+#Meny ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    font-family: sans-serif;
+    margin: 1px;
+}
+
+#Meny li {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+#Meny li a {
     text-decoration: none;
-    color:black;
+    color: black;
     display: block;
     text-align: center;
     padding-top: 10px;
@@ -103,9 +103,9 @@ a:hover {
     width: 450px;
     transition-duration: 0.2s;
     border: 1px solid silver;
-    }
-     
-    #Meny li a:hover {
+}
+
+#Meny li a:hover {
     background-color: black;
     box-shadow: 3px 3px 3px orange;
     color: white;
@@ -114,14 +114,14 @@ a:hover {
     height: 2.75em;
     width: 500px;
     border: 0px none silver;
-    }
-     
-    #Meny li a:active {
-    transform: translate(2px,2px);
+}
+
+#Meny li a:active {
+    transform: translate(2px, 2px);
     transition-duration: 0.1s;
     box-shadow: none;
     border: 0px none silver;
-    }
+}
 
 #Innhold {
     position: absolute;

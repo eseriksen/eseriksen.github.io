@@ -5,41 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Spillerstall</title>
+    <title>Logg inn</title>
     <link rel="shortcut icon" href="../bilder/Viking logo.jpg" type="image/jpg" />
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="../js/spillerstall.js"></script>
+    <script src="../js/login.js"></script>
 </head>
 
 <body>
     <div class="menu">
         <a href="../index.html">Hjem</a>
-        <a class="active" href="spillerstall.html">AB</a>
+        <a href="spillerstall.html">AB</a>
         <a href="shop.html">Shop</a>
         <div class="dropdown">
             <button class="dropbtn">Registrer deg ↓</button>
             <div class="dropdown-content">
-                <a href="../html/login.html">Logg inn</a>
+                <a class="active" href="html/login.html">Logg inn</a>
             </div>
         </div>
-        <div class="search-container">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Søk..." name="search">
-                <button type="submit">
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
+    </div>
+    <div id="login" class="hidden">
+        <input type="text" id="email" name="email" placeholder="E-post">
+        <input type="password" id="password" name="password" placeholder="Passord">
+        <button id="sign-in" name="signin">Logg inn</button>
+        <button id="sign-up" name="signup">Registrer deg</button>
+    </div>
+
+    <div id="status" class="hidden">
+
+        <button id="signout" name="signout">Logg ut</button>
+        <div id="beskytta innhold">
         </div>
     </div>
-    <article>
-        <div id="liste" class="spiller">
-
-        </div>
-    </article>
 </body>
 
-<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 <script>
     setup();
 </script>

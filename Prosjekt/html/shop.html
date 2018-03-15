@@ -8,6 +8,7 @@
     <title>Shop</title>
     <link rel="shortcut icon" href="../bilder/Viking logo.jpg" type="image/jpg" />
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -17,40 +18,9 @@
         <a href="spillerstall.html">AB</a>
         <a class="active" href="shop.html">Shop</a>
         <div class="dropdown">
-            <button class="dropbtn">Registrer deg</button>
+            <button class="dropbtn">Registrer deg ↓</button>
             <div class="dropdown-content">
-                <div id="opprett">
-                    <div>
-                        <h4>Opprett bruker</h4>
-                        <form>
-                            <div>
-                                <div>Brukernavn:</div>
-                                <div>
-                                    <input id="bruker" type="text">
-                                </div>
-                            </div>
-                            <div>
-                                <div>Alder:</div>
-                                <div>
-                                    <input id="alder" type="number">
-                                </div>
-                            </div>
-                            <div>
-                                <div>E-post:</div>
-                                <div>
-                                    <input id="epost" type="text">
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <button type="button" id="lagrebruker">
-                                        Opprett</button>
-                                </div>
-                                <div></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <a href="../html/login.html">Logg inn</a>
             </div>
         </div>
         <div class="search-container">
@@ -62,7 +32,15 @@
             </form>
         </div>
     </div>
-    <div id="background"></div>
+    <div id="galleri">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+
+        <div class="bilde" id="b1"></div>
+        <div class="bilde" id="b2"></div>
+        <div class="bilde" id="b3"></div>
+    </div>
 </body>
 
 </html>
