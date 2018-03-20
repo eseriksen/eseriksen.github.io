@@ -33,21 +33,3 @@
     50% { top: 0%; right: 90%;transform: rotate(-360deg);}
     100% { top: 80%; right: 0%;transform: rotate(-720deg);}
 }
-
-#GitHubLogo {
-    position: absolute;
-    top: 200px;
-    width: 75px;
-    height: 90px;
-    background: url("Bilder/GitHubLogo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: GitHubLogo 5s linear infinite;
-    animation-fill-mode: forwards;
-}
-
-@keyframes GitHubLogo {
-    0% { top: 90%; right: 48%; transform: rotate(0deg);}
-    50% { top: 45%; right: 48%;transform: rotate(-180deg);}
-    100% { top: 90%; right: 48%;transform: rotate(-360deg);}
-}
