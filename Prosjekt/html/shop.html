@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="../css/shop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/index.js"></script>
+    <script src="../js/shop.js"></script>
 </head>
 
 <body>
     <div class="menu">
         <a href="../index.html">Hjem</a>
-        <a href="spillerstall.html">AB</a>
+        <a href="spillerstall.html">Spillerstall</a>
         <a class="active" href="shop.html">Shop</a>
         <a href="omoss.html">Om oss</a>
         <div class="dropdown">
@@ -43,11 +44,51 @@
         <div class="bilde" id="b2"></div>
         <div class="bilde" id="b3"></div>
     </div>
+    <div id="main">
+        <div>
+            <h4>Bestill</h4>
+            <form>
+                <div>
+                    <div>Ditt navn</div>
+                    <div>
+                        <input id="navn" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Velg produkt</div>
+                    <div>
+                        <input id="product" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Size</div>
+                    <div>
+                        <input id="size" type="text">
+                    </div>
+                </div>
+                <div>
+                    <div>Antall</div>
+                    <div>
+                        <input id="antall" type="number">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <button type="button" id="lagrebestilling">
+                            Bestill</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 <script>
     setup();
+</script>
+<script>
+    setup2();
 </script>
 
 </html>

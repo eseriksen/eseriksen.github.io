@@ -1,35 +1,36 @@
 #galleri {
     margin-top: 10vh;
     position: relative;
-    width: 90vw;
-    left: 5vw;
+    width: 60vw;
+    left: 20vw;
     height: 60vh;
-    border: solid #381B46 1px;
+    border: solid #081122 1px;
 }
 
 .bilde {
     position: absolute;
-    width: calc(90vw - 50px);
-    height: calc(90vh - 50px);
+    width: calc(60vw - 50px);
+    height: calc(60vh - 50px);
     left: 25px;
     top: 25px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     opacity: 0;
     z-index: 1;
     transition: 1s;
 }
 
 #b1 {
-    background-image: url(".jpg");
+    background-image: url("http://www.vikingbutikken.no/attachments/C06A2E/ED8AFA/30deb90_drakt2018.jpg");
 }
 
 #b2 {
-    background-image: url(".jpg");
+    background-image: url("http://www.vikingbutikken.no/attachments/BC018E/EBD948/5ab7687_stavanger_by_tshirt.jpg");
 }
 
 #b3 {
-    background-image: url(".jpg");
+    background-image: url("http://www.vikingbutikken.no/attachments/C06A2E/630030/4c45bea_demorkeblaa.jpg");
 }
 
 #r1:checked~#b1 {
@@ -52,5 +53,24 @@
 }
 
 #r1 {
-    margin-left: calc((90vw - 100px) / 2);
+    margin-left: calc((60vw - 100px) / 2);
+}
+
+#main form div {
+    width: 6em;
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 1em;
+    margin: 2px;
+}
+
+#main form div div {
+    white-space: nowrap;
+}
+
+#main {
+    width: 50vw;
+    position: absolute;
+    left: 10px;
+    top: 50px;
 }

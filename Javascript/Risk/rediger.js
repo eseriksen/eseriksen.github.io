@@ -1,5 +1,3 @@
-// @ts-check
-
 function setup() {
     var config = {
         apiKey: "AIzaSyCvkESFB1YYaT91zPMjRoV3XGuCM86r3oA",

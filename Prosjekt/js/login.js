@@ -1,4 +1,4 @@
-function setup() {
+function setup2() {
 
   var config = {
     apiKey: "AIzaSyDPazA3KAe6xXd0Pa2QvNn4y2uwti8700o",

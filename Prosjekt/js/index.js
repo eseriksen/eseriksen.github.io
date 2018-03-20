@@ -9,7 +9,7 @@ function setup() {
         messagingSenderId: "746842846979"
     };
     firebase.initializeApp(config);
-    
+
     let database = firebase.database();
 
     let inpFind = document.getElementById("find"); // kobling til søkefeltet
@@ -19,7 +19,7 @@ function setup() {
     function finnOrd(e) {
         if (e.keyCode === 13) { // bruker trykket return
             let valgt = inpFind.value;
-            let ref = firebase.database().ref("dyr").orderByChild("navn").equalTo(valgt);
+            let ref = firebase.database().ref("Spiller").orderByChild("navn").equalTo(valgt);
             ref.once("value").then(function (snapshot) {
                 let funnet = snapshot.val();
                 if (funnet) {
@@ -37,5 +37,4 @@ function setup() {
             });
         }
     }
-}
 }

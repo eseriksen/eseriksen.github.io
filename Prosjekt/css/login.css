@@ -4,7 +4,7 @@ form {
 
 /* Full-width inputs */
 
-input[type=text],
+input[type=text2],
 input[type=password] {
     width: 80%;
     padding: 12px 20px;
@@ -18,7 +18,7 @@ input[type=password] {
 /* Set a style for all buttons */
 
 #sign-in, #sign-up, #signout {
-    background-color: #381B46;
+    background-color: #081122;
     color: white;
     padding: 12px 20px;
     margin: 8px 0;

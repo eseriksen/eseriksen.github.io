@@ -17,7 +17,7 @@
 <body>
     <div class="menu">
         <a href="../index.html">Hjem</a>
-        <a href="spillerstall.html">AB</a>
+        <a href="spillerstall.html">Spillerstall</a>
         <a href="shop.html">Shop</a>
         <a href="omoss.html">Om oss</a>
         <div class="dropdown">
@@ -26,9 +26,18 @@
                 <a class="active" href="html/login.html">Logg inn</a>
             </div>
         </div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Søk..." name="search">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
     </div>
+    
     <div id="login" class="hidden">
-        <input type="text" id="email" name="email" placeholder="E-post">
+        <input type="text2" id="email" name="email" placeholder="E-post">
         <input type="password" id="password" name="password" placeholder="Passord">
         <button id="sign-in" name="signin">Logg inn</button>
         <button id="sign-up" name="signup">Registrer deg</button>
@@ -43,6 +52,9 @@
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script>
+    setup2();
+</script>
 <script>
     setup();
 </script>
