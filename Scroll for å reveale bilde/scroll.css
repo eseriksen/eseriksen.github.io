@@ -1,0 +1,55 @@
+div p.artikkel {
+    display: inline-block;
+    min-width: 5em;
+    min-height: 8em;
+    background-color: whitesmoke;
+    padding: 1em;
+    margin: 5px;
+    border: solid 1px black;
+}
+
+#before {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+#bilde {
+    background-image: url("../Sepia/bilder/1.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+  position: relative;
+}
+.bg, .top:before, .top:after {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.top {
+  // background-image: url('https://i.imgur.com/PiktnCG.jpg');
+  background-image: url('https://s22.postimg.org/g6q8rtagh/Piktn_CG.jpg');
+  height: 99vh;
+  
+  &:before, &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('https://s22.postimg.org/g6q8rtagh/Piktn_CG.jpg');
+  }
+  &:before {
+    height: 99.5vh;
+    opacity: .25;
+  }
+  &:after {
+    opacity: .25;
+  }
+}
+.bottom {
+  // background-image: url('https://i.imgur.com/Do7J3P5.png');
+  background-image: url('https://s17.postimg.org/b8tbxqucf/Do7_J3_P5.png');
+}

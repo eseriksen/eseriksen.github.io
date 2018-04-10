@@ -1,0 +1,17 @@
+body {
+    counter-reset: oppgave;
+}
+
+div.oppgave {
+    counter-reset: deloppgave;
+}
+
+div.oppgave::before {
+    counter-increment: oppgave;
+    content: "Oppgave " counter(oppgave) ": ";
+}
+
+div.oppgave p::before {
+    counter-increment: deloppgave;
+    content: counter(deloppgave, lower-latin) ") ";
+}
