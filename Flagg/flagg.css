@@ -1,0 +1,17 @@
+#sverige {
+    background-color: #006AA7;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    border: solid gray 1px;
+}
+
+#sverige:after {
+    content: " ";
+    display: block;
+    width: 200px;
+    height: 20px;
+    top: calc(150px / 2 - 10px);
+    left: 0;
+    background-color: #FECC00;
+}
