@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="skjema.css">
+    <script src="skjema.js"></script>
+    <title>Regisreringsskjema</title>
+</head>
+
+<body>
+    <div id="main">
+        <form id="skjema">
+            <label>
+                Navn:
+                <input type="text" id="navn">
+            </label>
+            <label>
+                Alder:
+                <input type="number" id="alder" max="50" min="5">
+            </label>
+            <label>
+                Kjønn:
+                <select id="kjonn">
+                    <option value="gutt">Gutt</option>
+                    <option value="jente">Jente</option>
+                </select>
+            </label>
+            <label>
+                Løypevalg:
+                <select id="loype">
+                    <option value="kort">Kort</option>
+                    <option value="lang">Lang</option>
+                </select>
+            </label>
+            <label>
+                <button type="button" id="registrer">Registrer</button>
+            </label>
+        </form>
+    </div>
+    <div id="footer">
+        <output id="melding"></output>
+    </div>
+    
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>

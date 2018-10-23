@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skjemagenerator</title>
+    <script src="generator.js"></script>
+    <link rel="stylesheet" href="generator.css">
+</head>
+
+<body>
+    <div id="side1">
+        <h2>Skjemagenerator</h2>
+        <p>
+            <select id="backend">
+                <option value="localStorage">localStorage</option>
+                <option value="firebase">Firebase</option>
+                <option value="postgres">Postgres</option>
+            </select>
+        </p>
+        <h3>Lim inn sql</h3>
+        <p>
+            <textarea id="sql" cols="60" rows="30"></textarea>
+        </p>
+
+        <button type="button" id="generer">Generer</button>
+    </div>
+
+    <div id="side2" class="hidden">
+        <h2>Lag disse filene i prosjektmappen din</h2>
+        <p>
+            Kopier og lim inn kode.
+        </p>
+        <div id="ramme">
+            <div class="faner">bok.html</div>
+            <div class="faner">bok.js</div>
+            <div class="faner">database.js</div>
+            <div class="faner">database.css</div>
+            <div id="visning"></div>
+        </div>
+    </div>
+
+    <script>
+        setup();
+    </script>
+</body>
+
+</html>

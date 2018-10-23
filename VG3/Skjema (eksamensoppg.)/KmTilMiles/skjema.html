@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="skjema.css">
+    <script src="skjema.js"></script>
+    <title>Skjema2</title>
+</head>
+
+<body>
+    <h1>Fra kilometer til miles</h1>
+    <p>
+        <label>Skriv inn antall kilometer:</label>
+        <input id="inputKilometers" type="number" placeholder="kilometer..." oninput="LengthConverter(this.value)" 
+        onchange="LengthConverter(this.value)">
+    </p>
+    <p>Det blir <span id="outputMiles"></span> miles.</p>
+</body>
+
+</html>
