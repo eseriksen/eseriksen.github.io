@@ -3,9 +3,52 @@
     width: 20px;
     height: 20px;
     background-color: red;
-    border: solid gray 1px;
     top: 0;
     left: 0;
+}
+
+.apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+#omstart {
+    position: absolute;
+    top: 100px;
+    left: -500px;
+    width: 10em;
+    height: 3em;
+}
+
+#board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+#poeng {
+    position: relative;
+    background-color: yellow;
+    width: 50px;
+    height: 30px;
+    top: 0px;
+    left: 550px;
+}
+
+#poeng::before {
+    content: "Poeng:";
+    position: absolute;
+    left: -3em;
 }
 
 #snake {
@@ -19,14 +62,38 @@
     width: 200px;
     background-repeat: no-repeat;
     transform: scaleX(-1);
-    animation: Snake 6s linear infinite;
+    animation: crawl 10s linear infinite;
 }
 
-@keyframes Snake {
-    0% { left: 0px;  top: 0px; transform: scaleX(-1);}
-    29.9% { left: 500px; top: 0px; transform: scaleX(-1);}
-    30% { left: 500px; top: 0px; transform: scaleX(1);}
-    50% { left: 500px; top: 400px; transform: scaleX(1);}
-    80% { left: 0px; top: 400px; transform: scaleX(1);}
-    100% { left: 0px; top: 0px; transform: scaleX(1);}
+@keyframes crawl {
+    0% {
+        left: 0px;
+        top: 0px;
+        transform: scaleX(-1);
+    }
+    29.9% {
+        left: 500px;
+        top: 0px;
+        transform: scaleX(-1);
+    }
+    30% {
+        left: 500px;
+        top: 0px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 500px;
+        top: 400px;
+        transform: scaleX(1);
+    }
+    80% {
+        left: 0px;
+        top: 400px;
+        transform: scaleX(1);
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        transform: scaleX(1);
+    }
 }
